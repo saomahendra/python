@@ -1,7 +1,7 @@
 class Solution:
 
-  #https://www.youtube.com/watch?v=jzZsG8n2R9A&t=1s&ab_channel=NeetCode
-  def threeSumNeetCode(self, nums):
+
+  def threeSum(self, nums):
     res = []
     nums.sort()
     for i, a in enumerate(nums):
