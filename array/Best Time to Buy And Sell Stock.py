@@ -11,7 +11,7 @@ def buy_and_sell2(nums):
   maxProfit = 0
   for r in range(1, len(nums)):
     if nums[r] > nums[l]:
-      maxProfit = max(maxProfit, nums[r] > nums[l])
+      maxProfit = max(maxProfit, nums[r] - nums[l])
     else:
       l = r
   return maxProfit
